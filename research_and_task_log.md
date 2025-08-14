@@ -32,15 +32,26 @@ credit_risk_probability_default_model/
     to github.
     - command used in bash terminal of git
         gzip -k loan_dataset.csv
-        and 
+        &&
         bzip2 -k loan_dataset.csv
-    - -k resulted in keeping the original final and creating the desired compressed version.
- 
+    - -k resulted in keeping the original final and creating the desired compressed 
+    version.
+    - running dataset.to_csv('dataset.csv.gz', index = False, compression = 'gzip') takes more time than the bash terminal command.
 
+ - **Meta Data of Dataset** : 145 features are present in the dataset which makes it difficult to analyze the dataset for null values, unique categories for categorical feature.
+    - With the help of the datatset_meta_data(dataset) function which helps to extract various details like non-null values, null_values count, percentage of null values, 
+    unique catogeries for categorical features and it's datatype. 
+    - Helped to view in dataframe format made it easy for analyzing the features at one go. 
+
+### 📅 2025-08-14
+
+- **Analysis of Null values** - According to the output of the dataset_meta_data() function, dataset has around 
 
 ## ✅ Completed Tasks
-- [x] CSV File Compression - Dropped the idea of crompession file as the resulted file is still large
+- [x] CSV File Compression - Dropped the idea of crompession file as the resulted file is still larger than 100MB.
 - [x] Load dataset
+- [x] Get the basic details about the dataset-  Completed using the dataset_meta_data() function.
+- [x]
 
 ## ⏳ Pending Tasks
 - []
