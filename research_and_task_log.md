@@ -66,6 +66,7 @@ credit_risk_probability_default_model/
     - Class imbalance was observed and has to be taken care off.
 
 - **Feature Selection** -  
+    - 
 
 
     **Task**
@@ -74,6 +75,20 @@ credit_risk_probability_default_model/
     - [] Identify the feature that are tracked after the issuance of the loan.  [Completed - ]
     - [] Remove these features which are tracked after issusing loan. [Completed - ]
     - [] Drop the features with too many Null values. [Completed - ]
+
+### 📅 2025-08-14
+
+- **Feature Selection** -  
+    - **Drop Features with more than 50% Null Values**
+        - Out of 145 features, we have 58 features with more than 50% missing values 
+        - After dropping the features current number of features are 87.
+    
+    - **Identify Features not present before lending of loan**
+        - After checking the definition of feature present in /data/raw/DataDictionary.xlsx, I have identified the features that were not present before lending loan. 
+        - These features have been dropped from the loan dataset.
+        - After droping the features we have 31 features left in the loan dataset.
+    
+    - 
 
 
 ## ✅ Completed Tasks

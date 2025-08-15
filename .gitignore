@@ -207,3 +207,4 @@ marimo/_lsp/
 __marimo__/
 ./data/raw/Loan_Data.csv
 data/raw/Loan_Dataset.csv
+/data/processed/temp_processed_data_1.csv
