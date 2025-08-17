@@ -46,11 +46,15 @@ credit_risk_probability_default_model/
     unique catogeries for categorical features and it's datatype. 
     - Helped to view in dataframe format made it easy for analyzing the features at one go. 
 
+
+
     **Task**
         - [x] Duplicate values.[Completed - 2025-08-14 ]
         - [] Correct Datatypes. [Completed - ]
         - [] Converting feature into more meaningful format. [Completed - ]
         - [] Missing values. [Completed - ]
+
+
 
 ### 📅 2025-08-14
 
@@ -65,16 +69,14 @@ credit_risk_probability_default_model/
     - we have selected to predict only Fully Paid and Charged Off categories.
     - Class imbalance was observed and has to be taken care off.
 
-- **Feature Selection** -  
-    - 
-
-
     **Task**
     - [x] Identify the Target Column and value distribution [Completed - 2025-08-14]
     - [] Class imbalance issue in the loan dataset. [completed - ]
-    - [] Identify the feature that are tracked after the issuance of the loan.  [Completed - ]
-    - [] Remove these features which are tracked after issusing loan. [Completed - ]
-    - [] Drop the features with too many Null values. [Completed - ]
+    - [x] Identify the feature that are tracked after the issuance of the loan.  [Completed - 2025-08-15]
+    - [x] Remove these features which are tracked after issusing loan. [Completed - 2025-08-15 ]
+    - [x] Drop the features with too many Null values. [Completed - 2025-08-15 ]
+
+
 
 ### 📅 2025-08-14
 
@@ -87,20 +89,35 @@ credit_risk_probability_default_model/
         - After checking the definition of feature present in /data/raw/DataDictionary.xlsx, I have identified the features that were not present before lending loan. 
         - These features have been dropped from the loan dataset.
         - After droping the features we have 31 features left in the loan dataset.
+
+
+### 📅 2025-08-17
+- **Exploratoru Data Analysis**
+    - Viewing the sample dataset after dropping features with more than 50% null values and features that are not available during the application of loan or credit line.
+    - Checking for null values using dataset_meta_data() function created before.
+    - Checking for any row with complete row of null values- should be removed(was supposed to be performed as soon as the dataset was loaded.)
+
+    **Task**
+    - []
+    - []
     
-    - 
 
 
 ## ✅ Completed Tasks
 - **2025-08-13**
     - [x] CSV File Compression - Dropped the idea of crompession file as the resulted file is still larger than 100MB.[Completed - 2025-08-13]
     - [x] Load dataset. [Completed - 2025-08-13]
-    -  [x] Get the basic details about the dataset-  Completed using the dataset_meta_data() function. [completed - 2025-08-13]
+    - [x] Get the basic details about the dataset-  Completed using the dataset_meta_data() function. [completed - 2025-08-13]
 
 - **2025-08-14**
     - [x] Duplicate values. [completed - 2025-08-14]
     - [x] Identify the Target Column [Completed - 2025-08-14]
-    - 
+    - [x] Identify the feature that are tracked after the issuance of the loan.  [Completed -2025-08-15]
+    - [x] Remove these features which are tracked after issusing loan. [Completed - 2025-08-15]
+    - [x] Drop the features with too many Null values. [Completed - 2025-08-15]
+
+
+- **2025-08-17**
 
 
 ## ⏳ Pending Tasks
@@ -108,9 +125,6 @@ credit_risk_probability_default_model/
 - [] Correct Datatypes (To be handle during EDA) []
 - [] Converting feature into more meaningful format. (Handle During EDA) []
 - [] Missing values.
-- [] Identify the feature that are tracked after the issuance of the loan.  [Completed - ]
-- [] Remove these features which are tracked after issusing loan. [Completed - ]
-- [] Drop the features with too many Null values. [Completed - ]
 - [] Class imbalance issue in the loan dataset. [completed - ]
 
 
