@@ -96,6 +96,8 @@ credit_risk_probability_default_model/
     - Viewing the sample dataset after dropping features with more than 50% null values and features that are not available during the application of loan or credit line.
     - Checking for null values using dataset_meta_data() function created before.
     - Checking for any row with complete row of null values- should be removed(was supposed to be performed as soon as the dataset was loaded.)
+    - Get the list of features with numeric and categorical features.
+    
 
     **Task**
     - []
