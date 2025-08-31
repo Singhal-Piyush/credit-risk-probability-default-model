@@ -134,5 +134,9 @@ credit_risk_probability_default_model/
 
 ## 🧠 Research Ideas
 - Check how I want to handle the imbalance dataset issue in the loan dataset.
+- Create two separate dataset
+    - Dataset_1 -> Remove outliers and skewness > train non-tree based models
+    - Dataset_2 -> Keep the dataset as it is with outliers and skewness -> train Tree based models
+    
 
 
